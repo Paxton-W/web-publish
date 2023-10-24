@@ -107,6 +107,11 @@ body {
   background-color: #ffe9e4;
   border-radius: 1.4rem;
   flex-shrink: 0;
+  transition: 1s ease;
+  
+}
+.p-body-content:hover {
+  background-color: #AD5340;
 }
 .p-body-content-left {
   margin-right: 7.6rem;

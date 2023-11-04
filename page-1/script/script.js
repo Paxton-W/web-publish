@@ -15,6 +15,19 @@ buttonGoPodcast.addEventListener("click", function () {
   window.location.href = url_buttonGoPodcast;
 });
 
+
+var buttonGo = document.getElementById("goact-1");
+var url_buttonGo = "great.html";
+buttonGo.addEventListener("click", function () {
+  window.location.href = url_buttonGo;
+});
+
+var buttonGo2 = document.getElementById("goact-2");
+var url_buttonGo2 = "great.html";
+buttonGo2.addEventListener("click", function () {
+  window.location.href = url_buttonGo2;
+});
+
 // Function to get URL parameters
 function getUrlParameter(parameterName) {
     var url = new URL(window.location.href);

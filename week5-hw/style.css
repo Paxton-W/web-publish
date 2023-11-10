@@ -1,0 +1,79 @@
+@font-face {
+  font-family: "Comfortaa";
+  src: url(Comfortaa-Medium.ttf);
+}
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+canvas {
+  display: block;
+}
+.slider {
+  -webkit-appearance: none;
+  border-radius: 10px;
+  cursor: pointer;
+  background: #9fe5c2;
+  padding: 3px 5px;
+  box-shadow: 0 3px #4c4b4b;
+}
+.vertical {
+  transform: rotate(-90deg);
+  box-shadow: -3px 0 #4c4b4b;
+}
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  border-radius: 10px;
+  width: 10px;
+  height: 15px;
+  background: #5c4b51;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.slider:hover::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 25px;
+  height: 20px;
+  background: #cfca4c;
+  cursor: pointer;
+}
+
+.btn {
+  font-family: "Comfortaa";
+  background-color: #FFC636;
+  border: none;
+  border-radius: 30px;
+color: #474143;
+  cursor: pointer;
+  text-align: center;
+  box-shadow: 0 3px #4c4b4b;
+}
+.btn:hover {
+  background-color: #3e8e41;
+}
+
+.btn:active {
+  background-color: #3e8e41;
+  box-shadow: 0 1px #666;
+  transform: translateY(2px);
+}
+
+#button_stst {
+  padding: 15px;
+  background: #f06060;
+}
+
+#button_loop {
+  padding: 5px 10px;
+  background: #f3b562;
+}
+
+#button_reset {
+  background: #5c4b51;
+  color: #F2EBBF;
+}

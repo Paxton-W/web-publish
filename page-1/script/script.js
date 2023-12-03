@@ -34,12 +34,14 @@ function getUrlParameter(parameterName) {
   var url = new URL(window.location.href);
   return url.searchParams.get(parameterName);
 }
-
-var paragraphElement1 = document.getElementById("option1");
-paragraphElement1.textContent = v1;
-
-var paragraphElement2 = document.getElementById("option2");
-paragraphElement2.textContent = v2;
+if (v1) {
+  var paragraphElement1 = document.getElementById("option1");
+  paragraphElement1.textContent = v1;
+}
+if (v2) {
+  var paragraphElement2 = document.getElementById("option2");
+  paragraphElement2.textContent = v2;
+}
 
 console.log("v1=" + v1);
 console.log("v2=" + v2);

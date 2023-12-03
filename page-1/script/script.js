@@ -1,6 +1,9 @@
 //
 //
 //
+// Read and display URL parameters
+var v1 = getUrlParameter("v1");
+var v2 = getUrlParameter("v2");
 
 var buttonGoMusic = document.getElementById("gomusic");
 var url_buttonGoMusic = "https://www.youtube.com/watch?v=VVC0146RHUM";
@@ -32,9 +35,12 @@ function getUrlParameter(parameterName) {
   return url.searchParams.get(parameterName);
 }
 
-// Read and display URL parameters
-var v1 = getUrlParameter("v1");
-var v2 = getUrlParameter("v2");
+var paragraphElement1 = document.getElementById("option1");
+paragraphElement1.textContent = v1;
+
+var paragraphElement2 = document.getElementById("option2");
+paragraphElement2.textContent = v2;
+
 console.log("v1=" + v1);
 console.log("v2=" + v2);
 // Get the URL of the current iframe

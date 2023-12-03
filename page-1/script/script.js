@@ -33,7 +33,7 @@ function getUrlParameter(parameterName) {
 }
 
 // Read and display URL parameters
-var name1 = getUrlParameter("v1");
-var age1 = getUrlParameter("v2");
-console.log(name1);
-console.log(age1);
+var v1 = getUrlParameter("v1");
+var v2 = getUrlParameter("v2");
+console.log("v1=" + v1);
+console.log("v2=" + v2);

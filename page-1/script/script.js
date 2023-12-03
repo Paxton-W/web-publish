@@ -37,3 +37,6 @@ var v1 = getUrlParameter("v1");
 var v2 = getUrlParameter("v2");
 console.log("v1=" + v1);
 console.log("v2=" + v2);
+// Get the URL of the current iframe
+var iframeUrl = window.location.href;
+console.log("Current Iframe URL:", iframeUrl);

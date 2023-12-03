@@ -21,7 +21,6 @@ body {
   display: flex;
   flex-direction: column;
   box-shadow: 0 0.2rem 0.4rem rgba(0, 0, 0, 0.150000006);
-  background-image: url("../assets/bg_icon.png");
   background-color: #fff6f3;
 }
 .p-n-popbox-header {
@@ -43,8 +42,8 @@ body {
   flex-shrink: 0;
 }
 .p-n-popbox-header .smart-shoppy-oge {
-  margin: 0rem 20rem 0.2rem -3rem;
-  font-size: 2rem;
+  margin: 0rem 21.7rem 0.2rem 0rem;
+  font-size: 1.3902rem;
   font-weight: 700;
   line-height: 1.2575;
   color: #ffffff;
@@ -75,7 +74,7 @@ body {
 
 .text-great {
   align-items: center;
-  font-size: 4rem;
+  font-size: 3rem;
   font-weight: 700;
   color: #f44b16;
   font-family: Helvetica, "Source Sans Pro";
@@ -87,15 +86,6 @@ body {
   font-size: 2rem;
   font-weight: 700;
   font-family: Helvetica, "Source Sans Pro";
-}
-.text-proud {
-  align-items: center;
-  text-align:center;
-  margin-top:8px;
-  font-size: 1.6rem;
-  font-weight: 700;
-  font-family: Helvetica, "Source Sans Pro";
-  color: #705E5E;
 }
 .p-body-content {
   margin-bottom: 1.8rem;
@@ -223,8 +213,4 @@ body {
   top: 6rem;
   object-fit: cover;
   vertical-align: top;
-}
-
-.p-footer-other-user-p-1 {
-  padding-left: 10px;
 }

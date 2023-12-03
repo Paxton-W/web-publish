@@ -29,12 +29,6 @@ buttonGo2.addEventListener("click", function () {
   window.location.href = url_buttonGo2;
 });
 
-var buttonsetting = document.getElementById("iconsetting-right");
-var url_buttonsetting = "chrome-extension://dfcmmpdblffdomnngjklllbbiagicpej/option.html";
-buttonsetting.addEventListener("click", function () {
-  window.location.href = url_buttonsetting;
-});
-
 // Function to get URL parameters
 function getUrlParameter(parameterName) {
   var url = new URL(window.location.href);

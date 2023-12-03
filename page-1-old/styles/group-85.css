@@ -21,7 +21,6 @@ body {
   display: flex;
   flex-direction: column;
   box-shadow: 0 0.2rem 0.4rem rgba(0, 0, 0, 0.150000006);
-  background-image: url("../assets/bg_icon.png");
   background-color: #fff6f3;
 }
 .p-n-popbox-header {
@@ -43,8 +42,8 @@ body {
   flex-shrink: 0;
 }
 .p-n-popbox-header .smart-shoppy-oge {
-  margin: 0rem 20rem 0.2rem -3rem;
-  font-size: 2rem;
+  margin: 0rem 21.7rem 0.2rem 0rem;
+  font-size: 1.3902rem;
   font-weight: 700;
   line-height: 1.2575;
   color: #ffffff;
@@ -69,33 +68,31 @@ body {
   flex-direction: column;
   flex-shrink: 0;
 }
-.p-great-icon{
-  margin: 10px auto;
-}
-
-.text-great {
+.p-ques {
+  margin: 0rem 9.4rem 2.3rem 9.296rem;
+  width: calc(100% - 18.6957rem);
+  display: flex;
   align-items: center;
-  font-size: 4rem;
+  flex-shrink: 0;
+}
+.p-ques .are-you-ready {
+  margin: 0.091rem 2.404rem 0rem 0rem;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.2575;
+  color: #000000;
+  font-family: Helvetica, "Source Sans Pro";
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.p-ques .lets-do-something {
+  font-size: 1.9rem;
   font-weight: 700;
+  line-height: 1.2575;
   color: #f44b16;
   font-family: Helvetica, "Source Sans Pro";
-}
-.text-appreciate {
-  align-items: center;
-  text-align:center;
-  margin-top:20px;
-  font-size: 2rem;
-  font-weight: 700;
-  font-family: Helvetica, "Source Sans Pro";
-}
-.text-proud {
-  align-items: center;
-  text-align:center;
-  margin-top:8px;
-  font-size: 1.6rem;
-  font-weight: 700;
-  font-family: Helvetica, "Source Sans Pro";
-  color: #705E5E;
+  white-space: nowrap;
+  flex-shrink: 0;
 }
 .p-body-content {
   margin-bottom: 1.8rem;
@@ -223,8 +220,4 @@ body {
   top: 6rem;
   object-fit: cover;
   vertical-align: top;
-}
-
-.p-footer-other-user-p-1 {
-  padding-left: 10px;
 }

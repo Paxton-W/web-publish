@@ -42,8 +42,8 @@ body {
   flex-shrink: 0;
 }
 .p-n-popbox-header .smart-shoppy-oge {
-  margin: 0rem 21.7rem 0.2rem 0rem;
-  font-size: 1.3902rem;
+  margin: 0rem 20rem 0.2rem -3rem;
+  font-size: 2rem;
   font-weight: 700;
   line-height: 1.2575;
   color: #ffffff;
@@ -75,9 +75,19 @@ body {
   align-items: center;
   flex-shrink: 0;
 }
-.p-ques .are-you-ready {
+.p-ques .do-i-need {
   margin: 0.091rem 2.404rem 0rem 0rem;
-  font-size: 1.6rem;
+  font-size: 2.5rem;
+  font-weight: 700;
+  line-height: 1.2575;
+  color: #f44b16;
+  font-family: Helvetica, "Source Sans Pro";
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.p-ques .let-me-take {
+  margin: 0.091rem 2.404rem 0rem 0rem;
+  font-size: 2.0rem;
   font-weight: 400;
   line-height: 1.2575;
   color: #000000;
@@ -85,14 +95,26 @@ body {
   white-space: nowrap;
   flex-shrink: 0;
 }
-.p-ques .lets-do-something {
-  font-size: 1.9rem;
+.p-body-content-go {
+  margin: 2.4rem 0rem 2.496rem 0rem;
+  width: 7.8rem;
+  height: calc(100% - 4.8958rem);
+  font-size: 1.7577rem;
   font-weight: 700;
   line-height: 1.2575;
-  color: #f44b16;
+  color: #ffffff;
   font-family: Helvetica, "Source Sans Pro";
   white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f07257;
+  border-radius: 3.8451rem;
   flex-shrink: 0;
+}
+.p-body-content-go:hover {
+  background-color: #D64D2F;
+  cursor: pointer;
 }
 .p-body-content {
   margin-bottom: 1.8rem;
@@ -103,15 +125,14 @@ body {
   display: flex;
   align-items: center;
   border: solid 0.1rem #f98d6a;
-  box-shadow: 0 0.1rem 0.3rem rgba(227, 61, 61, 0.200000003);
-  background-color: #ffe9e4;
-  border-radius: 1.4rem;
+  box-shadow: 0 0.2rem 0.2rem rgba(227, 61, 61, 0.2);
+  background-color: #FFF6F6;
+  border-radius: 1.5rem;
   flex-shrink: 0;
-  transition: 1s ease;
-  
+  transition: 0.7s ease;
 }
 .p-body-content:hover {
-  background-color: #AD5340;
+  background-color: #FFA997;
 }
 .p-body-content-left {
   margin-right: 7.6rem;
@@ -143,23 +164,6 @@ body {
   object-fit: cover;
   vertical-align: top;
 }
-.p-body-content-go {
-  margin: 2.4rem 0rem 2.496rem 0rem;
-  width: 7.8rem;
-  height: calc(100% - 4.8958rem);
-  font-size: 1.7577rem;
-  font-weight: 700;
-  line-height: 1.2575;
-  color: #ffffff;
-  font-family: Helvetica, "Source Sans Pro";
-  white-space: nowrap;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: #f07257;
-  border-radius: 3.8451rem;
-  flex-shrink: 0;
-}
 .p-body-content-bg-icon {
   width: 9rem;
   height: 9rem;
@@ -168,11 +172,11 @@ body {
   top: 0;
   background-size: 100% 100%;
   background-position: 0rem 0rem;
-  background-image: url("../assets/bgiconexercise.png");
+  background-image: url("../assets/iconannouncement.png");
   border-radius: 1.4rem;
 }
 .bg-icon-workout {
-  background-image: url("../assets/bgiconexercise.png");
+  background-image: url("../assets/iconannouncement.png");
 }
 
 .bg-icon-idea {
@@ -220,4 +224,7 @@ body {
   top: 6rem;
   object-fit: cover;
   vertical-align: top;
+}
+.p-footer-other-user-p-1 {
+  padding-left: 10px;
 }
